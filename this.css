@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  background-image:linear-gradient(rgb(177, 199, 243),rgb(243, 243, 247));
+  height:100%;
+  width: 70vw;
+  margin-left:  82px;
+  padding: 56px;
+  box-shadow: 0 5px 8px gray;
+  margin-top: 8rem;
+  margin-bottom: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  background-color: white;
+  height: 80vh;
+  width: 20vw;
+  margin-left:3rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 5px rgb(193, 193, 243);
+  overflow:hidden;
+}
+.box .img{
+  border-top-left-radius: 12px ;
+  border-top-right-radius: 12px ;
+  width: 100%;
+}
+/*content*/
+.heading{
+  padding: 20px;
+  margin-top: 15px;
+}
+h1{
+  font-size: large;
+}
+p{
+  font-size: medium;
+  color: rgb(105, 102, 102);
+  margin-top: 2rem;
+}
+.plan{
+  background-color:#f0f4ff;
+  height: 70px;
+  width:100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+i{
+  background-color: rgb(214, 214, 234);
+  border-radius: 50%;
+  margin:12px;
+}
+.plan i{
+  width: 40px;
+  height: 40px;
+}
+.plan .text{
+  text-align:left;
+}
+.po{
+  font-size: smaller;
+  margin-bottom:1rem;
+}
+.plan a{
+  text-decoration: none;
+  color: blue;
+}
+a:hover{
+  color: black;
+}
+.plan:hover{
+  border:1px solid orange;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.cancel {
+  background: none;
+  color: gray;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+@media (max-width: 400px) {
+  .card {
+      width: 90%;
+  }
+}
